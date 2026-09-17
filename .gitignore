@@ -1,0 +1,33 @@
+# Carpetas generadas automáticamente por Unity (No subirlas)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Carpetas y archivos de caché de Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svclog
+*.com.unity.ide.rider/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Grabaciones y capturas pesadas que genera el editor
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# No ignorar los archivos .meta de los assets válidos
+!/[Aa]ssets/**/*.meta
