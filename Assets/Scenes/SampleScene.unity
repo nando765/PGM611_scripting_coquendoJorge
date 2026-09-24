@@ -1598,6 +1598,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Idle
       objectReference: {fileID: 0}
+    - target: {fileID: 8454038869251727805, guid: 00761bf8114a11f46a20191df79932c6, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 9fa4920ad3b4cbc4cb96fed6a04b6beb, type: 2}
     - target: {fileID: 8531916446615859240, guid: 00761bf8114a11f46a20191df79932c6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.485
