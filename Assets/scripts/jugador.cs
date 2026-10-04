@@ -1,4 +1,6 @@
+using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 public class Jugador : MonoBehaviour
 {
     public float velocidad = 5f;
@@ -9,7 +11,11 @@ public class Jugador : MonoBehaviour
     public Transform comprobadorPiso;
     public float radioComprobadorPiso = 0.1f;
     public LayerMask layerPiso;
+
     private Animator animator;
+
+    int cantAbejas = 0;
+    public TMP_Text textoAbejas;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -35,7 +41,13 @@ public class Jugador : MonoBehaviour
         if (collision.transform.CompareTag("abejita"))
         {
             Destroy(collision.gameObject);
+            cantAbejas++;
+            textoAbejas.text = "" + cantAbejas;
         }
-    }
+        if (collision.transform.CompareTag("puerquito"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
 
+    }
 }

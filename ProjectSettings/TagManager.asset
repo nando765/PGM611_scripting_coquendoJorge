@@ -5,11 +5,12 @@ TagManager:
   serializedVersion: 3
   tags:
   - abejita
+  - puerquito
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - pisito
+  - Pisito
   - Water
   - UI
   - 
